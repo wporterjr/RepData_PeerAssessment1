@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "PA1_template.Rmd"
 author: "wporter"
