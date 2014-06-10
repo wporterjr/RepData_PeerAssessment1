@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "PA1_template.Rmd"
 author: "wporter"
@@ -58,11 +59,18 @@ actDf$interval <- as.numeric(actDf$interval)
 ## Make a data frame with NAs removed
 tidyDf <- na.omit(actDf)
 ```
+=======
+# Reproducible Research: Peer Assessment 1
+
+
+## Loading and preprocessing the data
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
 
 
 
 ## What is mean total number of steps taken per day?
 
+<<<<<<< HEAD
 Make a new data frame with the calculated sum of the number of steps taken each day
 
 ```{r}
@@ -86,10 +94,13 @@ mean
 median
 ```
 
+=======
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
 
 
 ## What is the average daily activity pattern?
 
+<<<<<<< HEAD
 Make a new data frame with the calculated mean of the number of steps per interval
 accross all days
 
@@ -151,10 +162,16 @@ median2 <- median(dailyfillDf$steps, na.rm=T)
 mean2
 median2
 ```
+=======
+
+
+## Imputing missing values
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
 
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
+<<<<<<< HEAD
 
 We use the dataset with the filled-in missing values for this part.
 
@@ -183,3 +200,5 @@ xyplot(lastDf$avgsteps ~ lastDf$interval | lastDf$daytype,
 
 
 
+=======
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
