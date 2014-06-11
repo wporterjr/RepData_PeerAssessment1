@@ -132,7 +132,7 @@ median
 
 ## What is the average daily activity pattern?
 
-<<<<<<< HEAD
+
 Make a new data frame with the calculated mean of the number of steps per interval
 accross all days
 
